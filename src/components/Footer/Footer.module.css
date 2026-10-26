@@ -1,0 +1,264 @@
+.footer {
+  background-color: var(--black-dark);
+  color: var(--white);
+  padding: 60px 24px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logoAndSlogan {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.sloganText {
+  color: var(--orange);
+  margin-top: 24px;
+  line-height: 1.5;
+}
+
+.logo {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+/* Seções do footer */
+.sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
+
+.sectionsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
+
+.sections > *,
+.sectionsContainer > * {
+  text-align: left;
+}
+
+/* Parte inferior do footer */
+.subFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Formas de pagamento */
+.paymentMethods {
+  text-align: center;
+  margin-top: 40px;
+  min-width: 0;
+}
+
+.paymentIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Redes sociais */
+.socialMedia {
+  text-align: center;
+  margin-top: 40px;
+  min-width: 0;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 30px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  color: azure;
+}
+
+/* Copyright */
+.copyright {
+  position: relative;
+  width: 100%;
+  min-height: 90px;
+  box-sizing: border-box;
+  background-color: var(--w-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--black-dark);
+  padding: 20px 16px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+/* Notebooks */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 45px 24px 25px;
+  }
+
+  .sections,
+  .sectionsContainer {
+    gap: 24px;
+  }
+
+  .subFooter {
+    gap: 24px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 24px 25px;
+  }
+
+  .sections,
+  .sectionsContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .sections > *,
+  .sectionsContainer > * {
+    width: 100%;
+    text-align: left;
+  }
+
+  .logoAndSlogan {
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+  }
+
+  .sloganText {
+    margin-top: 16px;
+  }
+
+  .subFooter {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .paymentMethods,
+  .socialMedia {
+    margin-top: 25px;
+  }
+
+  .copyright {
+    min-height: 80px;
+    padding: 18px 16px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 24px 20px;
+  }
+
+  .logo {
+    width: 125px;
+  }
+
+  .sloganText {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  .sections,
+  .sectionsContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .sections > *,
+  .sectionsContainer > * {
+    width: 100%;
+    text-align: left;
+  }
+
+  .subFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .paymentMethods,
+  .socialMedia {
+    margin-top: 24px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .paymentIcons,
+  .socialIcons {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .icon {
+    width: 26px;
+  }
+
+  .copyright {
+    min-height: 70px;
+    padding: 16px 12px;
+    font-size: 13px;
+  }
+}
+
+/* Celulares pequenos */
+@media (max-width: 320px) {
+  .footer {
+    padding: 25px 16px 16px;
+  }
+
+  .logo {
+    width: 110px;
+  }
+
+  .sloganText {
+    font-size: 13px;
+  }
+
+  .sections,
+  .sectionsContainer {
+    gap: 24px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    padding: 14px 10px;
+  }
+}

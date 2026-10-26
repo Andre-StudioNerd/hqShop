@@ -1,0 +1,169 @@
+/* src/pages/ProductDetailsPage/ProductDetailsPage.module.css */
+
+.divider {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #d8d8d8;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+  padding: 50px 24px 40px;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+  margin: 0 auto;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.productContainer,
+.productContainer * {
+  box-sizing: border-box;
+}
+
+.productContainer h1,
+.productContainer h2,
+.productContainer h3,
+.productContainer h4,
+.productContainer h5,
+.productContainer h6 {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 1.3;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.productContainer p {
+  max-width: 100%;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+
+.productContainer img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.productContainer button {
+  max-width: 100%;
+  min-height: 44px;
+  cursor: pointer;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.productContainer label {
+  max-width: 100%;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .page {
+    padding: 32px 18px;
+  }
+
+  .productContainer {
+    align-items: center;
+  }
+
+  .productContainer h1,
+  .productContainer h2,
+  .productContainer h3,
+  .productContainer h4,
+  .productContainer h5,
+  .productContainer h6 {
+    margin-bottom: 24px;
+  }
+
+  .productContainer img {
+    max-width: 280px;
+    margin-bottom: 24px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  .page {
+    padding: 28px 12px;
+  }
+
+  .productContainer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .productContainer img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    margin: 0 auto 24px;
+  }
+
+  .productContainer h1,
+  .productContainer h2,
+  .productContainer h3,
+  .productContainer h4,
+  .productContainer h5,
+  .productContainer h6 {
+    margin-bottom: 20px;
+  }
+
+  .productContainer p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .productContainer button {
+    min-height: 44px;
+  }
+}
+
+/* Celulares estreitos */
+@media (max-width: 360px) {
+  .page {
+    padding: 24px 8px;
+  }
+
+  .productContainer img {
+    max-width: 220px;
+  }
+
+  .productContainer h1,
+  .productContainer h2,
+  .productContainer h3,
+  .productContainer h4,
+  .productContainer h5,
+  .productContainer h6 {
+    font-size: clamp(18px, 6vw, 24px);
+    margin-bottom: 16px;
+  }
+
+  .productContainer p {
+    font-size: 13px;
+  }
+}

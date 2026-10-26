@@ -1,0 +1,447 @@
+/* Reset de espaçamentos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.headingLarge,
+.heading,
+.headingSmall,
+.bodySemiBold,
+.bodyLarge,
+.body {
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+/* Títulos principais */
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 56px;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 51px;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 39px;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 31px;
+  line-height: 1.2;
+  text-align: left;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: left;
+}
+
+/* Parágrafos */
+p {
+  padding: 30px 0;
+  text-align: justify;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.psmall {
+  padding: 10px 0;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+/* Título pequeno Orbitron */
+.h6Small {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Headings Poppins */
+.headingLarge {
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 31px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.headingRegular {
+  font-family: "Poppins", sans-serif;
+  font-size: 31px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.headingSmall {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.headingSemiBold {
+  font-family: "Poppins", sans-serif;
+  font-size: 31px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* Textos grandes */
+.bodyLargeBold {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.bodyLarge {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+/* Textos padrão */
+.body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.bodyBold {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+/* Textos pequenos */
+.bodySmall {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.bodySmallBold {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.bodySmallRegular {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.bodySemiBold {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* Notebooks */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 34px;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+
+  h6 {
+    font-size: 23px;
+  }
+
+  .headingLarge {
+    font-size: 34px;
+  }
+
+  .heading,
+  .headingRegular,
+  .headingSemiBold {
+    font-size: 28px;
+  }
+
+  .headingSmall {
+    font-size: 23px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 29px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 21px;
+  }
+
+  p {
+    padding: 20px 0;
+    line-height: 1.6;
+  }
+
+  .psmall {
+    padding: 8px 0;
+  }
+
+  .headingLarge {
+    font-size: 30px;
+  }
+
+  .heading,
+  .headingRegular,
+  .headingSemiBold {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  .headingSmall {
+    font-size: 21px;
+  }
+
+  .bodyLarge,
+  .bodyLargeBold {
+    font-size: 18px;
+  }
+
+  .body,
+  .bodyBold,
+  .bodySemiBold {
+    font-size: 15px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  h3 {
+    font-size: 27px;
+  }
+
+  h4 {
+    font-size: 25px;
+    line-height: 1.25;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  h6 {
+    font-size: 19px;
+  }
+
+  p {
+    padding: 16px 0;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .psmall {
+    padding: 8px 0;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .space {
+    margin-top: 16px;
+  }
+
+  .h6Small {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .headingLarge {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .heading,
+  .headingRegular,
+  .headingSemiBold {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .headingSmall {
+    font-size: 19px;
+    line-height: 1.4;
+  }
+
+  .bodyLarge,
+  .bodyLargeBold {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .body,
+  .bodyBold,
+  .bodySemiBold {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .bodySmall,
+  .bodySmallBold {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .bodySmallRegular {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+}
+
+/* Celulares pequenos */
+@media (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .headingLarge {
+    font-size: 23px;
+  }
+
+  .heading,
+  .headingRegular,
+  .headingSemiBold {
+    font-size: 20px;
+  }
+
+  .headingSmall {
+    font-size: 18px;
+  }
+
+  .bodyLarge,
+  .bodyLargeBold {
+    font-size: 16px;
+  }
+
+  .body,
+  .bodyBold,
+  .bodySemiBold {
+    font-size: 14px;
+  }
+}
+
+/* Acessibilidade: respeita a preferência por menos animações */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}

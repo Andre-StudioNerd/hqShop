@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --gray: #5e6e89;
+  --gray-medium: #444444;
+  --w-light: #efefef;
+  --black-dark: #000;
+  --w-l: #fcfcfc;
+  --orange: #febc00;
+  --g-dark: #434343;
+  --black: #040404;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

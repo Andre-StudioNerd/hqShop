@@ -1,0 +1,46 @@
+input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 20px;
+  padding: 0 24px;
+  border-radius: 32px;
+  border: 2px solid var(--black-dark);
+  height: 64px;
+  width: 100%;
+  background-color: transparent;
+
+  &::placeholder {
+    color: var(--black-dark);
+  }
+}
+
+.primary input:hover,
+.secondary input:hover {
+  border-color: var(--w-l);
+}
+
+.primary input:focus,
+.secondary input:focus {
+  border-color: var(--w-l);
+  outline: none;
+}
+
+.primary input {
+  background-color: transparent;
+}
+
+.secondary input {
+  border-color: var(--w-light);
+}
+
+.inputContainer {
+  width: 100%;
+  position: relative;
+}
+
+.iconContainer {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}

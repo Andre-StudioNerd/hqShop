@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "label": "Super-Heróis",
+      "imageSrc": "https://raw.githubusercontent.com/gss-patricia/use-dev-assets/refs/heads/main/categorias/desktop/categorias.png"
+    },
+    {
+      "id": "2",
+      "label": "Graphic Novels",
+      "imageSrc": "https://raw.githubusercontent.com/gss-patricia/use-dev-assets/refs/heads/main/categorias/desktop/decoracao.png"
+    },
+    {
+      "id": "3",
+      "label": "Clássicos / Formatinhos",
+      "imageSrc": "https://raw.githubusercontent.com/gss-patricia/use-dev-assets/refs/heads/main/categorias/desktop/acessorios.png"
+    },
+    {
+      "id": "4",
+      "label": "Mangás Raros",
+      "imageSrc": "https://raw.githubusercontent.com/gss-patricia/use-dev-assets/refs/heads/main/categorias/desktop/canecas.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "label": "Batman: O C. das Trevas",
+      "price": 18000,
+      "colors": ["Capa Dura", "Brochura"],
+      "imageSrc": "/batmanct.webp",
+      "description": "Edição clássica e memorável de Frank Miller."
+    },
+    {
+      "id": "2",
+      "label": "Watchmen",
+      "price": 15000,
+      "colors": ["Primeira Edição", "Edição Especial"],
+      "imageSrc": "/watchmen.webp",
+      "description": "Obra-prima de Alan Moore e Dave Gibbons."
+    },
+    {
+      "id": "3",
+      "label": "C.nas I. Terras",
+      "price": 22000,
+      "colors": ["Conservado", "Com Bag"],
+      "imageSrc": "/crise.webp",
+      "description": "O marco histórico que mudou o universo DC."
+    },
+    {
+      "id": "4",
+      "label": "Homem-Aranha Nº 1",
+      "price": 9500,
+      "colors": ["Colecionador"],
+      "imageSrc": "/aranha.webp",
+      "description": "Relíquia dos anos 80 em excelente estado."
+    },
+    {
+      "id": "5",
+      "label": "Sandman",
+      "price": 14000,
+      "colors": ["Capa Dura"],
+      "imageSrc": "/sandman.webp",
+      "description": "O início da aclamada saga de Neil Gaiman."
+    },
+    {
+      "id": "6",
+      "label": "Guerras Secretas",
+      "price": 25000,
+      "colors": ["Raridade"],
+      "imageSrc": "/secreta.webp",
+      "description": "Edição clássica de colecionador da Editora Abril."
+    },
+    {
+      "id": "7",
+      "label": "Monstro do Pântano",
+      "price": 11000,
+      "colors": ["Standard"],
+      "imageSrc": "/pantano.webp",
+      "description": "O terror gótico que revolucionou os quadrinhos."
+    },
+
+    {
+      "id": 1766176311976,
+      "label": "A Queda de Murdock",
+      "price": 16000,
+      "colors": ["Capa Dura", "Especial"],
+      "imageSrc": "/demolidor.webp",
+      "description": "Considerada uma das melhores histórias da Marvel."
+    }
+  ],
+  "orders": []
+}
