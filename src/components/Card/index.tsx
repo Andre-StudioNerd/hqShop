@@ -18,7 +18,7 @@ const Card = ({ label, price, imageSrc }: CardProps) => {
         <div className={Styles.cardContentInner}>
           <Typography variant="h6">{label}</Typography>
           <Typography variantStyle="headingSemiBold">
-            {price.toFixed(2)}
+            R$ {price.toFixed(2)}
           </Typography>
         </div>
       </div>

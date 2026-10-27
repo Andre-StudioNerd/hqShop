@@ -22,6 +22,8 @@
   max-width: 1200px;
   min-width: 0;
   margin: 0 auto;
+  background-color: #efefef;
+  padding: 20px;
 }
 
 .productContainer {

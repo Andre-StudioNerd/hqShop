@@ -65,7 +65,7 @@ function ProductDetail({
                   variantStyle="bodyLarge"
                   style={{
                     textDecoration: "line-through",
-                    color: "#999",
+                    color: "red",
                     marginRight: "12px",
                   }}
                 >

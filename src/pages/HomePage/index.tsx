@@ -32,9 +32,11 @@ function HomePage() {
         }}
       >
         <div className={styles.filtersSection}>
-          <Typography variant="h2">Produtos</Typography>
           <div className={styles.filtersButton}>
-            <Button onClick={() => setIsFiltersOpen(true)} text="Filtros" />
+            <Button
+              onClick={() => setIsFiltersOpen(true)}
+              text="Nossos Filtros"
+            />
             {hasActiveFilters && (
               <span className={styles.filtersBadge}>
                 {Object.keys(filters).length}
@@ -70,7 +72,7 @@ function HomePage() {
         )}
 
         <StatusHandler isLoading={isPendingProducts} error={isErrorProducts}>
-          <ProductList title="Promoções especiais" products={products || []} />
+          <ProductList title="Produtos" products={products || []} />
         </StatusHandler>
       </main>
       <Newsletter />

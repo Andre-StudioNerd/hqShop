@@ -43,7 +43,7 @@
 }
 
 .viewButton:hover {
-  background-color: rgba(120, 11, 247, 0.1);
+  background-color: rgba(59, 59, 59, 0.1);
   color: var(--black);
 }
 
